@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Pinja.Examples.ConventionBasedFactories\Pinja.Examples.ConventionBasedFactories.csproj" />
+      <ProjectReference Include="..\Pinja.Examples.Extensibility\Pinja.Examples.Extensibility.csproj" />
+      <ProjectReference Include="..\Pinja.Examples.Messages\Pinja.Examples.Messages.csproj" />
+    </ItemGroup>
+
+</Project>

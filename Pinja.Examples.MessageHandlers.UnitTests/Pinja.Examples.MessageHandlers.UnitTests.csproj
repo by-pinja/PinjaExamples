@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="FluentAssertions" Version="5.10.3" />
+      <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.1.9" />
+      <PackageReference Include="Microsoft.Extensions.Logging" Version="3.1.9" />
+      <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="3.1.9" />
+      <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.6.1" />
+      <PackageReference Include="Moq" Version="4.15.2" />
+      <PackageReference Include="NUnit" Version="3.12.0" />
+      <PackageReference Include="NUnit3TestAdapter" Version="3.17.0" />
+      <PackageReference Include="System.Text.Json" Version="4.7.2" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Pinja.Examples.ConventionBasedFactories\Pinja.Examples.ConventionBasedFactories.csproj" />
+      <ProjectReference Include="..\Pinja.Examples.Extensibility\Pinja.Examples.Extensibility.csproj" />
+      <ProjectReference Include="..\Pinja.Examples.MessageHandlers\Pinja.Examples.MessageHandlers.csproj" />
+      <ProjectReference Include="..\Pinja.Examples.Messages\Pinja.Examples.Messages.csproj" />
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,75 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pinja.Examples.ConventionBasedFactories", "Pinja.Examples.ConventionBasedFactories\Pinja.Examples.ConventionBasedFactories.csproj", "{9D3E9334-E1CA-42FA-9EC7-03EEA42B0C53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pinja.Example.TestConsole", "Pinja.Example.TestConsole\Pinja.Example.TestConsole.csproj", "{E759F497-8954-4DDA-AF3D-97D1CEA0FEFF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{576E6EE5-2967-41DE-8366-9FE30864C9D9}"
+ProjectSection(SolutionItems) = preProject
+	README.md = README.md
+EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pinja.Examples.Events", "Pinja.Examples.Events\Pinja.Examples.Events.csproj", "{5ED24545-F553-47CC-A544-EF6A910D1E5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pinja.Examples.Extensibility", "Pinja.Examples.Extensibility\Pinja.Examples.Extensibility.csproj", "{8EB9F9C3-7103-4633-9B17-39D9F0D1F71C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{71D9E44B-11C2-4EC7-96AE-B67DF0BE2633}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pinja.Examples.Extensibility.UnitTests", "Pinja.Examples.Extensibility.UnitTests\Pinja.Examples.Extensibility.UnitTests.csproj", "{F55DBDB4-8C04-4C71-83E5-B06EEF48D012}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pinja.Examples.Messages", "Pinja.Examples.Messages\Pinja.Examples.Messages.csproj", "{B211B665-C021-4D33-AF51-8646F26BA850}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pinja.Examples.MessageHandlers", "Pinja.Examples.MessageHandlers\Pinja.Examples.MessageHandlers.csproj", "{5756DA3A-B404-4316-A5D9-61814BF44A78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pinja.Examples.Messages.Extended", "Pinja.Examples.Messages.Extended\Pinja.Examples.Messages.Extended.csproj", "{4C93AD67-A387-4470-BA70-CAF033476561}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pinja.Examples.MessageHandlers.UnitTests", "Pinja.Examples.MessageHandlers.UnitTests\Pinja.Examples.MessageHandlers.UnitTests.csproj", "{12B820D0-FE3C-4A65-85A3-5D00DD8AA56B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9D3E9334-E1CA-42FA-9EC7-03EEA42B0C53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D3E9334-E1CA-42FA-9EC7-03EEA42B0C53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D3E9334-E1CA-42FA-9EC7-03EEA42B0C53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D3E9334-E1CA-42FA-9EC7-03EEA42B0C53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E759F497-8954-4DDA-AF3D-97D1CEA0FEFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E759F497-8954-4DDA-AF3D-97D1CEA0FEFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E759F497-8954-4DDA-AF3D-97D1CEA0FEFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E759F497-8954-4DDA-AF3D-97D1CEA0FEFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5ED24545-F553-47CC-A544-EF6A910D1E5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5ED24545-F553-47CC-A544-EF6A910D1E5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5ED24545-F553-47CC-A544-EF6A910D1E5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5ED24545-F553-47CC-A544-EF6A910D1E5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EB9F9C3-7103-4633-9B17-39D9F0D1F71C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EB9F9C3-7103-4633-9B17-39D9F0D1F71C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EB9F9C3-7103-4633-9B17-39D9F0D1F71C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EB9F9C3-7103-4633-9B17-39D9F0D1F71C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F55DBDB4-8C04-4C71-83E5-B06EEF48D012}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F55DBDB4-8C04-4C71-83E5-B06EEF48D012}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F55DBDB4-8C04-4C71-83E5-B06EEF48D012}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F55DBDB4-8C04-4C71-83E5-B06EEF48D012}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B211B665-C021-4D33-AF51-8646F26BA850}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B211B665-C021-4D33-AF51-8646F26BA850}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B211B665-C021-4D33-AF51-8646F26BA850}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B211B665-C021-4D33-AF51-8646F26BA850}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5756DA3A-B404-4316-A5D9-61814BF44A78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5756DA3A-B404-4316-A5D9-61814BF44A78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5756DA3A-B404-4316-A5D9-61814BF44A78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5756DA3A-B404-4316-A5D9-61814BF44A78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C93AD67-A387-4470-BA70-CAF033476561}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C93AD67-A387-4470-BA70-CAF033476561}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C93AD67-A387-4470-BA70-CAF033476561}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C93AD67-A387-4470-BA70-CAF033476561}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12B820D0-FE3C-4A65-85A3-5D00DD8AA56B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12B820D0-FE3C-4A65-85A3-5D00DD8AA56B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12B820D0-FE3C-4A65-85A3-5D00DD8AA56B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12B820D0-FE3C-4A65-85A3-5D00DD8AA56B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F55DBDB4-8C04-4C71-83E5-B06EEF48D012} = {71D9E44B-11C2-4EC7-96AE-B67DF0BE2633}
+		{12B820D0-FE3C-4A65-85A3-5D00DD8AA56B} = {71D9E44B-11C2-4EC7-96AE-B67DF0BE2633}
+	EndGlobalSection
+EndGlobal
