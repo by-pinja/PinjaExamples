@@ -1,7 +1,7 @@
 # Pinja example code library
 
 This library contains some ideas and implementations meant to eliminate boilerplate code from commonly used functionalities. Currently the different examples contains:
-[Hierarchy aware polymorphic JSON serialization](hierarchy-aware-polymorphic-json-serialization) and [Convention based message handlers and factories](convention-based-message-handlers-and-factories). Whose usages are intertwined and complement each other.
+[Hierarchy aware polymorphic JSON serialization](#hierarchy-aware-polymorphic-json-serialization) and [Convention based message handlers and factories](#convention-based-message-handlers-and-factories). Whose usages are intertwined and complement each other.
 
 ## Hierarchy aware polymorphic JSON serialization
 
